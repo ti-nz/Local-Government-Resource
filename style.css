@@ -1,7 +1,11 @@
-body { background-color: #ffc; text-align: center; }
-	a, a:link, a:visited, a:hover, a:active {color: #ffffff; }
-.webpage-max-width { max-width: 1400px; min-height: 600px; margin: 0 auto;  background-image: url("assets/img0.jpg"); background-size: cover; background-position: center; }
-.col, .col-12 {  }
+body { background-color: #fff;}
 
-.my-boxes a { display:block;  text-align: center; padding: 30px; min-height: 300px; font-size: 24px; background-color: rgba(0,0,0,25%); border-radius: 10px; }
+.webpage-max-width { max-width: 1400px; margin: 0 auto;  }
+.home-page-image-section { 
+	background-image: url("assets/img0.jpg"); background-size: cover; background-position: center; 
+	padding: 0 32px 0 32px; border-radius: 10px; text-align: center;}
+
+.home-page-image-section a, .home-page-image-section a:link, .home-page-image-section a:visited, .home-page-image-section a:hover,home-page-image-section  a:active  {color: #ffffff; }
+
+.my-boxes a { display:block;  text-align: center; padding: 30px; min-height: 200px; font-size: 24px; background-color: rgba(0,0,0,25%); border-radius: 10px; margin-bottom: 32px;}
 .my-boxes a:hover { background-color: rgba(0,0,0,60%); }
