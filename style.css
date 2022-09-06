@@ -1,5 +1,6 @@
 body { background-color: #fff;}
-
+.navbar-nav .nav-link { padding: 0 25px !important; }
+.navbar-nav .nav-link.home-link { padding-top: 10px !important; }
 .webpage-max-width { max-width: 1400px; margin: 0 auto;  }
 .home-page-image-section { 
 	background-image: url("assets/img0.jpg"); background-size: cover; background-position: center; 
